@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ex0601.dir/src/ex0601.cpp.o -o ex0601 

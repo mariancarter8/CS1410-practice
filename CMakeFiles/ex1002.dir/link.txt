@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ex1002.dir/src/ex1002.cpp.o -o ex1002 

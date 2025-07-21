@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ex0802.dir/src/ex0802.cpp.o CMakeFiles/ex0802.dir/src/author.cpp.o -o ex0802 

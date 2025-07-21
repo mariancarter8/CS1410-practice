@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ex0402.dir/src/ex0402.cpp.o -o ex0402 
