@@ -389,6 +389,32 @@ ex1002/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1002.dir/build.make CMakeFiles/ex1002.dir/build
 .PHONY : ex1002/fast
 
+#=============================================================================
+# Target rules for targets named ex1101
+
+# Build rule for target.
+ex1101: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1101
+.PHONY : ex1101
+
+# fast build rule for target.
+ex1101/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1101.dir/build.make CMakeFiles/ex1101.dir/build
+.PHONY : ex1101/fast
+
+#=============================================================================
+# Target rules for targets named ex1102
+
+# Build rule for target.
+ex1102: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1102
+.PHONY : ex1102
+
+# fast build rule for target.
+ex1102/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1102.dir/build.make CMakeFiles/ex1102.dir/build
+.PHONY : ex1102/fast
+
 src/author.o: src/author.cpp.o
 .PHONY : src/author.o
 
@@ -893,6 +919,54 @@ src/ex1002.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1002.dir/build.make CMakeFiles/ex1002.dir/src/ex1002.cpp.s
 .PHONY : src/ex1002.cpp.s
 
+src/ex1101.o: src/ex1101.cpp.o
+.PHONY : src/ex1101.o
+
+# target to build an object file
+src/ex1101.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1101.dir/build.make CMakeFiles/ex1101.dir/src/ex1101.cpp.o
+.PHONY : src/ex1101.cpp.o
+
+src/ex1101.i: src/ex1101.cpp.i
+.PHONY : src/ex1101.i
+
+# target to preprocess a source file
+src/ex1101.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1101.dir/build.make CMakeFiles/ex1101.dir/src/ex1101.cpp.i
+.PHONY : src/ex1101.cpp.i
+
+src/ex1101.s: src/ex1101.cpp.s
+.PHONY : src/ex1101.s
+
+# target to generate assembly for a file
+src/ex1101.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1101.dir/build.make CMakeFiles/ex1101.dir/src/ex1101.cpp.s
+.PHONY : src/ex1101.cpp.s
+
+src/ex1102.o: src/ex1102.cpp.o
+.PHONY : src/ex1102.o
+
+# target to build an object file
+src/ex1102.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1102.dir/build.make CMakeFiles/ex1102.dir/src/ex1102.cpp.o
+.PHONY : src/ex1102.cpp.o
+
+src/ex1102.i: src/ex1102.cpp.i
+.PHONY : src/ex1102.i
+
+# target to preprocess a source file
+src/ex1102.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1102.dir/build.make CMakeFiles/ex1102.dir/src/ex1102.cpp.i
+.PHONY : src/ex1102.cpp.i
+
+src/ex1102.s: src/ex1102.cpp.s
+.PHONY : src/ex1102.s
+
+# target to generate assembly for a file
+src/ex1102.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1102.dir/build.make CMakeFiles/ex1102.dir/src/ex1102.cpp.s
+.PHONY : src/ex1102.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -945,6 +1019,8 @@ help:
 	@echo "... ex0901"
 	@echo "... ex1001"
 	@echo "... ex1002"
+	@echo "... ex1101"
+	@echo "... ex1102"
 	@echo "... main"
 	@echo "... src/author.o"
 	@echo "... src/author.i"
@@ -1009,6 +1085,12 @@ help:
 	@echo "... src/ex1002.o"
 	@echo "... src/ex1002.i"
 	@echo "... src/ex1002.s"
+	@echo "... src/ex1101.o"
+	@echo "... src/ex1101.i"
+	@echo "... src/ex1101.s"
+	@echo "... src/ex1102.o"
+	@echo "... src/ex1102.i"
+	@echo "... src/ex1102.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -19,5 +19,7 @@
 /workspaces/CS1410-practice/CMakeFiles/ex0901.dir
 /workspaces/CS1410-practice/CMakeFiles/ex1001.dir
 /workspaces/CS1410-practice/CMakeFiles/ex1002.dir
+/workspaces/CS1410-practice/CMakeFiles/ex1101.dir
+/workspaces/CS1410-practice/CMakeFiles/ex1102.dir
 /workspaces/CS1410-practice/CMakeFiles/edit_cache.dir
 /workspaces/CS1410-practice/CMakeFiles/rebuild_cache.dir
